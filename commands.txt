@@ -1,0 +1,18 @@
+
+ssh username@windows-ip "powershell -Command \"(Get-Date) - (Get-WmiObject Win32_OperatingSystem).LastBootUpTime\""
+ssh username@windows-ip "powershell -Command \"(Get-Date) - (Get-CimInstance Win32_OperatingSystem).LastBootUpTime\""
+
+
+ssh username@windows-ip "powershell -Command 'Get-Service | Select-Object -ExpandProperty DisplayName'"
+
+ssh username@windows-ip "powershell -Command {Get-Service | Select-Object -ExpandProperty DisplayName}"
+
+
+ssh username@windows-ip "Get-WinEvent -LogName System -MaxEvents 10"
+
+
+ssh user1@192.168.122.156 "powershell -Command \"(Get-Date) - (Get-CimInstance Win32_OperatingSystem).LastBootUpTime\""
+
+
+ssh <username>@<windows-vm-ip> -p 22 'powershell Get-WinEvent -LogName Security'
+
