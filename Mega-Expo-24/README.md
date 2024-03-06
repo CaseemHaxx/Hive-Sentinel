@@ -7,7 +7,7 @@
 - Talent Meetup
 
 ## INNOVATION EXPO
-- Opportunities at PARAST for Industry
+- Opportunities at PAF-IAST for Industry
 - InterUniversity Idea Pitch Competition
 - Panel Discussion
 - Product Display
